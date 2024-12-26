@@ -1,7 +1,6 @@
-import './index.css'; // Ensure this points to your Tailwind CSS file
-import { Link } from 'react-router-dom';
+import './index.css';
 
-function Home() {
+function AboutMe() {
   return (
     //div for entire page
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
@@ -9,7 +8,7 @@ function Home() {
       {/*header*/}
       <header>
         <h1 className="text-5xl font-bold underline font-mono italic text-blue-500">
-          Ian Kwiatkowski Website
+          This is the About Me Page
         </h1>
       </header>
       
@@ -18,16 +17,10 @@ function Home() {
         <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">
           Home
         </button>
-        <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">
-          Experince
-        </button>
-        <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">
-          <Link to="/AboutMe">About Me</Link>
-        </button>
       </div>
-      
+
     </div>
   );
 }
 
-export default Home;
+export default AboutMe;
