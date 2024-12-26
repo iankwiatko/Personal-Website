@@ -16,10 +16,10 @@ function Home() {
       {/*buttons (temporary until a header is designed)*/}
       <div class="inline-flex">
         <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">
-          Home
+          <Link to="/Home">Home</Link>
         </button>
         <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">
-          Experince
+          <Link to="/Experience">Experience</Link>
         </button>
         <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">
           <Link to="/AboutMe">About Me</Link>

@@ -1,7 +1,7 @@
 import './index.css';
 import { Link } from 'react-router-dom';
 
-function AboutMe() {
+function Experience() {
   return (
     //div for entire page
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
@@ -9,7 +9,7 @@ function AboutMe() {
       {/*header*/}
       <header>
         <h1 className="text-5xl font-bold underline font-mono italic text-blue-500">
-          This is the About Me Page
+          This is the Experience page
         </h1>
       </header>
       
@@ -24,4 +24,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe;
+export default Experience;
