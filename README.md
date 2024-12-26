@@ -8,4 +8,4 @@ Ian Kwiatkowski
 ## How to run locally on a dev server
 1. install node.js (https://nodejs.org/en)
 2. install tailwind css `npm install -D tailwindcss`
-3. do `npm install` to install all the dependencies
+3. install react router dom 'npm install react-router-dom'
